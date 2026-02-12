@@ -1,19 +1,7 @@
 // @/models/User.ts
 import { Schema, models, model } from "mongoose";
 import bcrypt from "bcryptjs";
-
-export interface IUser {
-  name: string;
-  email: string;
-  password: string;
-  avatar?: string;
-  role: "user" | "admin";
-  isVerified: boolean;
-  createdAt: Date;
-  updatedAt: Date;
-
-  comparePassword(candidatePassword: string): Promise<boolean>;
-}
+import { IUser } from "@/types/User";
 
 const UserSchema = new Schema<IUser>(
   {
