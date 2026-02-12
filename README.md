@@ -1,161 +1,138 @@
 # 👻 PHANTOM Stack v2
 
-**PHANTOM Stack v2 by Yogawan Aditya Pratama (Agoy)** - A modern, powerful, and opinionated full-stack development framework for building high-performance web applications.
+> A modern, blazing-fast full-stack development framework by **Yogawan Aditya Pratama (Agoy)**
 
-## 🚀 Stack Overview
+## 🚀 What is PHANTOM Stack?
 
-PHANTOM is an acronym representing the core principles and technologies that power this stack:
+PHANTOM Stack v2 is a carefully curated technology stack designed for building production-ready web applications with optimal developer experience and performance. Each technology is chosen to work seamlessly together, providing a powerful foundation for modern web development.
 
-| Principle | Description | Key Technology |
-|-----------|-------------|----------------|
-| **P** - Performance | Optimized for speed and efficiency | [Next.js 16](https://nextjs.org) with Turbopack |
-| **H** - Headless Architecture | Decoupled, flexible component system | [Radix UI](https://radix-ui.com) primitives |
-| **A** - Animation | Smooth, professional animations | [GSAP](https://gsap.com) |
-| **N** - NextJS | React-based production framework | [Next.js](https://nextjs.org) App Router |
-| **T** - TailwindCSS | Utility-first styling approach | [TailwindCSS](https://tailwindcss.com) |
-| **O** - Observable State | Reactive state management | Built-in React hooks & patterns |
-| **M** - Maintainability | Clean, scalable architecture | TypeScript + best practices |
+## 🎯 Stack Components
 
-### Additional Technologies
+### **P** - Production Framework
+- **Next.js** - The React framework for production with Server-Side Rendering, API Routes, and optimal performance
 
-- 🎨 **UI Kit**: [Shadcn UI](https://ui.shadcn.com) - Re-usable components built with Radix UI and Tailwind
-- 📚 **Component Docs**: [Storybook](https://storybook.js.org) - UI component explorer
-- 📝 **API Documentation**: [Scalar](https://scalar.com) - Beautiful API references
-- 🚀 **Deployment**: [Vercel](https://vercel.com) - Platform for frontend frameworks
+### **H** - Headless UI Components
+- **Radix UI** - Unstyled, accessible, and highly customizable UI primitives
 
-## ✨ Features
+### **A** - Animation Library
+- **GSAP** (GreenSock Animation Platform) - Professional-grade animation for the modern web
 
-- ⚡ **Lightning Fast** - Built on Next.js 16 with Turbopack
-- 🎯 **Type Safe** - Full TypeScript support
-- 🎨 **Beautiful UI** - Pre-built components with Shadcn UI
-- 📱 **Responsive** - Mobile-first design with TailwindCSS
-- 🔐 **Authentication** - Built-in auth system
-- 📖 **API Documentation** - Interactive API docs with Scalar
-- 🧩 **Component Library** - Documented components with Storybook
-- ♿ **Accessible** - WCAG compliant with Radix UI primitives
+### **N** - N/A (Placeholder for future additions)
 
-## 📦 Getting Started
+### **T** - Tailwind CSS
+- **TailwindCSS** - Utility-first CSS framework for rapid UI development
+
+### **O** - Organized Component System
+- **Shadcn UI** - Re-usable components built with Radix UI and Tailwind CSS
+
+### **M** - Module Documentation
+- **Storybook** - UI component development environment and documentation
+
+## 📦 Technology Details
+
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| Framework | Next.js | Server-side rendering, routing, and API |
+| Styling | TailwindCSS | Utility-first CSS framework |
+| UI Primitives | Radix UI | Accessible headless components |
+| UI Kit | Shadcn UI | Pre-built styled components |
+| Animation | GSAP | High-performance animations |
+| Documentation | Storybook | Component library and docs |
+| Deployment | Vercel | Optimized hosting platform |
+
+## 🛠️ Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
-- npm or pnpm
-- MongoDB (local or cloud)
+- Node.js 18.17 or higher
+- npm, yarn, or pnpm
 
 ### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yogawan/phantom-stack-experimental.git
+
+# Navigate to project directory
+cd phantom-stack
+
 # Install dependencies
 npm install
-
-# Set up environment variables
-cp .env.example .env.local
 
 # Run development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application.
-
-## 🛠️ Available Scripts
+### Available Scripts
 
 ```bash
-# Development
-npm run dev          # Start dev server with Turbopack
+npm run dev          # Start development server
 npm run build        # Build for production
 npm run start        # Start production server
-npm run lint         # Run ESLint
-
-# Storybook
-npm run storybook    # Start Storybook dev server
-npm run build-storybook  # Build Storybook for production
+npm run lint         # Run linting
+npm run storybook    # Start Storybook
+npm run build-storybook  # Build Storybook
 ```
 
 ## 📁 Project Structure
 
 ```
 phantom-stack/
-├── app/                    # Next.js app router
-│   ├── api/               # API routes
-│   │   └── auth/         # Authentication endpoints
-│   ├── scalar/           # API documentation
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
-├── components/           # React components
-│   └── ui/              # Shadcn UI components
-├── hooks/               # Custom React hooks
-├── lib/                 # Utility functions
-│   ├── mongodb.ts       # Database connection
-│   └── utils.ts         # Helper functions
-├── models/              # MongoDB models
-├── public/              # Static assets
-└── stories/             # Storybook stories
+├── app/                 # Next.js App Router
+│   ├── api/            # API routes
+│   ├── scalar/         # API documentation
+│   └── page.tsx        # Main page
+├── components/         # React components
+│   └── ui/            # Shadcn UI components
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions
+├── models/            # Database models
+├── public/            # Static assets
+├── stories/           # Storybook stories
+└── styles/            # Global styles
 ```
 
-## 🎨 UI Components
+## 🎨 Features
 
-This project uses **Shadcn UI** - a collection of re-usable components built with:
-- **Radix UI** for accessibility and behavior
-- **TailwindCSS** for styling
-- **TypeScript** for type safety
+- ⚡ **Lightning Fast** - Next.js 14 with Turbopack
+- 🎭 **Beautiful UI** - Pre-configured Shadcn UI components
+- 🔒 **Type-Safe** - Full TypeScript support
+- 📱 **Responsive** - Mobile-first design approach
+- ♿ **Accessible** - WCAG compliant components
+- 🎬 **Smooth Animations** - GSAP integration
+- 📚 **Well Documented** - Storybook component library
+- 🚀 **Production Ready** - Optimized for Vercel deployment
 
-### Available Components
+## 🔧 Tech Stack Details
 
-Over 40+ components including:
-- Forms (Input, Select, Checkbox, Radio, etc.)
-- Overlays (Dialog, Popover, Tooltip, etc.)
-- Navigation (Tabs, Menu, Breadcrumb, etc.)
-- Feedback (Alert, Toast, Progress, etc.)
-- Data Display (Table, Card, Badge, etc.)
+### Next.js
+Next.js provides the foundation with server-side rendering, static site generation, API routes, and automatic code splitting for optimal performance.
 
-View all components in Storybook: `npm run storybook`
+### TailwindCSS
+Utility-first CSS framework that enables rapid UI development with consistent design patterns and minimal CSS bundle size.
+
+### Radix UI
+Unstyled, accessible components that serve as the foundation for building high-quality design systems and web applications.
+
+### Shadcn UI
+A collection of re-usable components built using Radix UI and TailwindCSS, offering beautiful, accessible components out of the box.
+
+### GSAP
+Industry-leading animation library for creating professional, high-performance animations with simple, powerful syntax.
+
+### Storybook
+Development environment for UI components, allowing isolated component development, testing, and documentation.
+
+### Vercel
+Optimized hosting platform for Next.js applications with automatic deployments, edge network, and serverless functions.
 
 ## 📖 API Documentation
 
-Interactive API documentation is available at `/scalar/docs` powered by Scalar.
+The project includes built-in API documentation using Scalar:
 
-**Current Endpoints:**
-
-### Authentication
-
-- `POST /api/auth/create-account` - Create new user account
-- `POST /api/auth/login` - User login
-
-Access the documentation: [http://localhost:3000/scalar/docs](http://localhost:3000/scalar/docs)
-
-## 🎭 Animation with GSAP
-
-GSAP (GreenSock Animation Platform) is included for professional animations:
-
-```typescript
-import { gsap } from 'gsap'
-
-// Example animation
-gsap.to('.element', {
-  x: 100,
-  duration: 1,
-  ease: 'power2.out'
-})
 ```
-
-## 🗄️ Database
-
-MongoDB is used for data persistence. Configure your connection in `.env.local`:
-
-```env
-MONGODB_URI=your_mongodb_connection_string
+http://localhost:3000/scalar/docs
 ```
-
-## 🚀 Deployment
-
-This project is optimized for deployment on **Vercel**:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-1. Push your code to GitHub
-2. Import project in Vercel
-3. Configure environment variables
-4. Deploy!
 
 ## 🤝 Contributing
 
@@ -169,15 +146,19 @@ This project is licensed under the MIT License.
 
 **Yogawan Aditya Pratama (Agoy)**
 
-PHANTOM Stack v2 - A philosophy of building modern web applications with focus on:
-- **Performance** - Fast, optimized experiences
-- **Headless Architecture** - Flexible, composable systems
-- **Animation** - Delightful interactions
-- **NextJS** - Powerful React framework
-- **TailwindCSS** - Efficient styling
-- **Observable State** - Reactive data flow
-- **Maintainability** - Long-term code quality
+- GitHub: [@yogawan](https://github.com/yogawan)
+
+## 🙏 Acknowledgments
+
+Special thanks to all the open-source projects that make PHANTOM Stack possible:
+
+- [Next.js Team](https://nextjs.org)
+- [Tailwind Labs](https://tailwindcss.com)
+- [Radix UI](https://radix-ui.com)
+- [Shadcn](https://ui.shadcn.com)
+- [GreenSock](https://greensock.com)
+- [Storybook Team](https://storybook.js.org)
 
 ---
 
-Built with ❤️ using the PHANTOM Stack v2
+Built with 💜 by Yogawan Aditya Pratama (Agoy)
