@@ -1,10 +1,9 @@
-# PHANTOM Stack v2
+# PHANTOM Stack v2 by Agoy
 
 A cutting-edge fullstack Next.js ecosystem designed for building scalable SaaS platforms and cinematic web applications.
 
----
 
-### What is PHANTOM?
+# What is PHANTOM?
 
 PHANTOM stands for:
 - **Performance**: Optimized for speed and scalability
@@ -15,17 +14,15 @@ PHANTOM stands for:
 - **Observable State**: Efficient state management
 - **Maintainability**: Clean, scalable, and maintainable codebase
 
----
 
-### Core Framework
+# Core Framework
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
 | <img src="/public/tech-stack/NexxtJS.svg" height="96px" alt="Next.js" /> | **Next.js** | A fullstack React framework featuring App Router, SSR, API Routes, and RSC for modern web applications. |
 
----
 
-### Frontend UI Layer
+# Frontend UI Layer
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
@@ -35,7 +32,6 @@ PHANTOM stands for:
 | <img src="/public/tech-stack/GSAP.svg" height="96px" /> | **GSAP** | A professional-grade animation library for creating smooth and high-performance animations. |
 | <img src="/public/tech-stack/Storybook.svg" height="96px" /> | **Storybook** | A development environment for building, testing, and documenting UI components. |
 
----
 
 ### State and Validation Layer
 
@@ -46,9 +42,8 @@ PHANTOM stands for:
 | <img src="/public/tech-stack/React Form Hook.svg" height="96px" /> | **React Hook Form** | Efficient and flexible form state management. |
 | <img src="/public/tech-stack/Zod.svg" height="96px" /> | **Zod** | Schema validation and type safety for robust applications. |
 
----
 
-### Backend and Data Layer
+# Backend and Data Layer
 
 | Logo | Technology | Role |
 |------|-----------|---|
@@ -58,9 +53,8 @@ PHANTOM stands for:
 | <img src="/public/tech-stack/Axios.svg" height="96px" /> | **Axios** | A powerful and easy-to-use HTTP client for API communication. |
 | <img src="/public/tech-stack/Scalar.svg" height="96px" /> | **Scalar** | Interactive and visually appealing API documentation. |
 
----
 
-### Quality and Observability
+# Quality and Observability
 
 | Logo | Technology | Role |
 |------|-----------|---|
@@ -69,9 +63,8 @@ PHANTOM stands for:
 | <img src="/public/tech-stack/Playwright.svg" height="96px" /> | **Playwright** | Comprehensive end-to-end testing for modern web apps. |
 | <img src="/public/tech-stack/Sentry.svg" height="96px" /> | **Sentry** | Proactive error monitoring and observability. |
 
----
 
-### DevOps and Deployment
+# DevOps and Deployment
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
