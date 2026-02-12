@@ -1,6 +1,15 @@
 <style>
   table {
     width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f4f4f4;
   }
 </style>
 
@@ -12,63 +21,197 @@ Starter kit NextJS project
 
 # Core Framework
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/NexxtJS.svg" height="96px" alt="Next.js" /> | **Next.js** | A fullstack React framework with features like App Router, SSR, API Routes, and RSC for scalable and fast web apps. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/NexxtJS.svg" height="96px" alt="Next.js" /></td>
+      <td><strong>Next.js</strong></td>
+      <td>A fullstack React framework with features like App Router, SSR, API Routes, and RSC for scalable and fast web apps.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 # Frontend UI Layer
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/TailwindCSS.svg" height="96px" /> | **TailwindCSS** | Utility-first CSS framework for rapid and consistent UI development. |
-| <img src="/public/tech-stack/Radix UI.svg" height="96px" /> | **Radix UI** | Accessible and customizable UI primitives for modern web apps. |
-| <img src="/public/tech-stack/ShacdnUI.svg" height="96px" /> | **shadcn/ui** | Reusable components built on Radix UI and TailwindCSS. |
-| <img src="/public/tech-stack/GSAP.svg" height="96px" /> | **GSAP** | High-performance animation library for dynamic visual effects. |
-| <img src="/public/tech-stack/Storybook.svg" height="96px" /> | **Storybook** | A tool for building, testing, and documenting UI components. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/TailwindCSS.svg" height="96px" /></td>
+      <td><strong>TailwindCSS</strong></td>
+      <td>Utility-first CSS framework for rapid and consistent UI development.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Radix UI.svg" height="96px" /></td>
+      <td><strong>Radix UI</strong></td>
+      <td>Accessible and customizable UI primitives for modern web apps.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/ShacdnUI.svg" height="96px" /></td>
+      <td><strong>shadcn/ui</strong></td>
+      <td>Reusable components built on Radix UI and TailwindCSS.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/GSAP.svg" height="96px" /></td>
+      <td><strong>GSAP</strong></td>
+      <td>High-performance animation library for dynamic visual effects.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Storybook.svg" height="96px" /></td>
+      <td><strong>Storybook</strong></td>
+      <td>A tool for building, testing, and documenting UI components.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 # State and Validation Layer
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/TanStack.svg" height="96px" /> | **TanStack Query** | Simplifies server state management and data fetching. |
-| <img src="/public/tech-stack/Zustand.svg" height="96px" /> | **Zustand** | Lightweight state management for React apps. |
-| <img src="/public/tech-stack/React Form Hook.svg" height="96px" /> | **React Hook Form** | Flexible library for managing form state and validation. |
-| <img src="/public/tech-stack/Zod.svg" height="96px" /> | **Zod** | Type-safe schema validation for robust applications. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/TanStack.svg" height="96px" /></td>
+      <td><strong>TanStack Query</strong></td>
+      <td>Simplifies server state management and data fetching.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Zustand.svg" height="96px" /></td>
+      <td><strong>Zustand</strong></td>
+      <td>Lightweight state management for React apps.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/React Form Hook.svg" height="96px" /></td>
+      <td><strong>React Hook Form</strong></td>
+      <td>Flexible library for managing form state and validation.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Zod.svg" height="96px" /></td>
+      <td><strong>Zod</strong></td>
+      <td>Type-safe schema validation for robust applications.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 # Backend and Data Layer
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/NextAuth.svg" height="96px" /> | **NextAuth** | Secure authentication and session management. |
-| <img src="/public/tech-stack/MongoDB.svg" height="96px" /> | **MongoDB Atlas** | Scalable and flexible cloud database solution. |
-| <img src="/public/tech-stack/Mongoose.svg" height="96px" /> | **Mongoose** | ODM library for MongoDB with schema enforcement. |
-| <img src="/public/tech-stack/Axios.svg" height="96px" /> | **Axios** | HTTP client for API requests with advanced features. |
-| <img src="/public/tech-stack/Scalar.svg" height="96px" /> | **Scalar** | Interactive API documentation tool. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/NextAuth.svg" height="96px" /></td>
+      <td><strong>NextAuth</strong></td>
+      <td>Secure authentication and session management.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/MongoDB.svg" height="96px" /></td>
+      <td><strong>MongoDB Atlas</strong></td>
+      <td>Scalable and flexible cloud database solution.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Mongoose.svg" height="96px" /></td>
+      <td><strong>Mongoose</strong></td>
+      <td>ODM library for MongoDB with schema enforcement.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Axios.svg" height="96px" /></td>
+      <td><strong>Axios</strong></td>
+      <td>HTTP client for API requests with advanced features.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Scalar.svg" height="96px" /></td>
+      <td><strong>Scalar</strong></td>
+      <td>Interactive API documentation tool.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 # Quality and Observability
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/Biome.svg" height="96px" /> | **Biome** | Linting and formatting for consistent code quality. |
-| <img src="/public/tech-stack/Vitest.svg" height="96px" /> | **Vitest** | Fast and reliable unit testing framework. |
-| <img src="/public/tech-stack/Playwright.svg" height="96px" /> | **Playwright** | End-to-end testing for cross-browser compatibility. |
-| <img src="/public/tech-stack/Sentry.svg" height="96px" /> | **Sentry** | Error monitoring and observability for production apps. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/Biome.svg" height="96px" /></td>
+      <td><strong>Biome</strong></td>
+      <td>Linting and formatting for consistent code quality.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Vitest.svg" height="96px" /></td>
+      <td><strong>Vitest</strong></td>
+      <td>Fast and reliable unit testing framework.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Playwright.svg" height="96px" /></td>
+      <td><strong>Playwright</strong></td>
+      <td>End-to-end testing for cross-browser compatibility.</td>
+    </tr>
+    <tr>
+      <td><img src="/public/tech-stack/Sentry.svg" height="96px" /></td>
+      <td><strong>Sentry</strong></td>
+      <td>Error monitoring and observability for production apps.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 # DevOps and Deployment
 
-| Logo | Technology | Description |
-|------|-----------|-------------|
-| <img src="/public/tech-stack/Vercel.svg" height="96px" /> | **Vercel** | Deployment platform optimized for Next.js apps. |
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Technology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/tech-stack/Vercel.svg" height="96px" /></td>
+      <td><strong>Vercel</strong></td>
+      <td>Deployment platform optimized for Next.js apps.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
