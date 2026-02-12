@@ -10,10 +10,12 @@ Tambahkan variabel `BASE_URL` di file `.env.local` untuk menyimpan URL dasar API
 
 ```env
 BASE_URL=https://api.example.com
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
 ```
 
 - **`BASE_URL`**: URL dasar API eksternal.
-- Variabel ini akan diakses menggunakan `process.env.BASE_URL` di dalam kode.
+- **`MONGODB_URI`**: URL koneksi ke database MongoDB.
+- Variabel ini akan diakses menggunakan `process.env` di dalam kode.
 
 ---
 
@@ -39,10 +41,12 @@ export default apiClient;
 ---
 
 ## 3. Fungsi API di `services/`
-Tambahkan fungsi untuk memanggil endpoint API eksternal. Fungsi ini akan menggunakan klien API dari `lib/apiClient.ts`.
+Tambahkan fungsi untuk memanggil endpoint API eksternal atau database. Fungsi ini akan menggunakan klien API dari `lib/apiClient.ts` atau koneksi database dari `lib/mongodb.ts`.
 
 ```typescript
 import apiClient from '@/lib/apiClient';
+import { connectDB } from '@/lib/mongodb';
+import User from '@/models/User';
 
 export const fetchExampleData = async () => {
   try {
@@ -53,10 +57,21 @@ export const fetchExampleData = async () => {
     throw error;
   }
 };
+
+export const getUserFromDB = async (email: string) => {
+  try {
+    await connectDB();
+    const user = await User.findOne({ email });
+    return user;
+  } catch (error) {
+    console.error('Error fetching user from DB:', error);
+    throw error;
+  }
+};
 ```
 
 - **`fetchExampleData`**: Fungsi untuk memanggil endpoint `/example-endpoint`.
-- **`apiClient.get`**: Memanggil API menggunakan klien yang sudah dikonfigurasi.
+- **`getUserFromDB`**: Fungsi untuk mengambil data user dari database MongoDB.
 
 ---
 
@@ -65,20 +80,21 @@ Tambahkan route BFF di Next.js untuk memproses permintaan dari frontend. Route i
 
 ```typescript
 import { NextResponse } from 'next/server';
-import { fetchExampleData } from '@/services/exampleService';
+import { getUserFromDB } from '@/services/authService';
 
-export async function GET() {
+export async function POST(req: Request) {
   try {
-    const data = await fetchExampleData(); // Panggil fungsi dari services
-    return NextResponse.json(data); // Kirim respons ke frontend
+    const { email } = await req.json();
+    const user = await getUserFromDB(email); // Panggil fungsi dari services
+    return NextResponse.json(user); // Kirim respons ke frontend
   } catch (error) {
     return NextResponse.json({ error: 'Failed to fetch data' }, { status: 500 });
   }
 }
 ```
 
-- **`GET`**: Route untuk menangani permintaan GET.
-- **`fetchExampleData`**: Fungsi dari `services/` dipanggil di sini.
+- **`POST`**: Route untuk menangani permintaan POST.
+- **`getUserFromDB`**: Fungsi dari `services/` dipanggil di sini.
 - **`NextResponse.json`**: Mengembalikan data ke frontend.
 
 ---
@@ -188,10 +204,11 @@ export default function Page() {
 ## 6. Alur Lengkap
 1. **Konfigurasi di `.env.local`**:
    - Tambahkan `BASE_URL` untuk menyimpan URL dasar API.
+   - Tambahkan `MONGODB_URI` untuk koneksi database.
 2. **Klien API di `lib/apiClient.ts`**:
    - Buat klien API menggunakan `axios` yang membaca `BASE_URL`.
 3. **Fungsi API di `services/`**:
-   - Tambahkan fungsi untuk memanggil endpoint spesifik.
+   - Tambahkan fungsi untuk memanggil endpoint spesifik atau database.
 4. **BFF di `app/api/`**:
    - Tambahkan route untuk memproses permintaan dari frontend.
 5. **Integrasi dengan Library**:
