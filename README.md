@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👻 PHANTOM Stack
 
-## Getting Started
+**PHANTOM Stack by Agoy** - A modern, powerful, and opinionated full-stack development framework for building high-performance web applications.
 
-First, run the development server:
+## 🚀 Stack Overview
+
+PHANTOM is an acronym representing the core technologies that power this stack:
+
+| Technology | Purpose | Official Site |
+|------------|---------|---------------|
+| **P** - [Next.js](https://nextjs.org) | **Framework** | React-based framework for production |
+| **H** - [Radix UI](https://radix-ui.com) | **Headless UI** | Unstyled, accessible components |
+| **A** - [GSAP](https://gsap.com) | **Animation Library** | Professional-grade animation |
+| **N** - [TailwindCSS](https://tailwindcss.com) | **Utility-first CSS** | Utility-first CSS framework |
+| **T** - [TypeScript](https://typescriptlang.org) | **Type Safety** | JavaScript with syntax for types |
+| **O** - (Optimized) | **Performance** | Built-in optimizations |
+| **M** - [MongoDB](https://mongodb.com) | **Database** | NoSQL database |
+
+### Additional Technologies
+
+- 🎨 **UI Kit**: [Shadcn UI](https://ui.shadcn.com) - Re-usable components built with Radix UI and Tailwind
+- 📚 **Component Docs**: [Storybook](https://storybook.js.org) - UI component explorer
+- 📝 **API Documentation**: [Scalar](https://scalar.com) - Beautiful API references
+- 🚀 **Deployment**: [Vercel](https://vercel.com) - Platform for frontend frameworks
+
+## ✨ Features
+
+- ⚡ **Lightning Fast** - Built on Next.js 16 with Turbopack
+- 🎯 **Type Safe** - Full TypeScript support
+- 🎨 **Beautiful UI** - Pre-built components with Shadcn UI
+- 📱 **Responsive** - Mobile-first design with TailwindCSS
+- 🔐 **Authentication** - Built-in auth system
+- 📖 **API Documentation** - Interactive API docs with Scalar
+- 🧩 **Component Library** - Documented components with Storybook
+- ♿ **Accessible** - WCAG compliant with Radix UI primitives
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or pnpm
+- MongoDB (local or cloud)
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Development
+npm run dev          # Start dev server with Turbopack
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
 
-## Learn More
+# Storybook
+npm run storybook    # Start Storybook dev server
+npm run build-storybook  # Build Storybook for production
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+phantom-stack/
+├── app/                    # Next.js app router
+│   ├── api/               # API routes
+│   │   └── auth/         # Authentication endpoints
+│   ├── scalar/           # API documentation
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Home page
+├── components/           # React components
+│   └── ui/              # Shadcn UI components
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+│   ├── mongodb.ts       # Database connection
+│   └── utils.ts         # Helper functions
+├── models/              # MongoDB models
+├── public/              # Static assets
+└── stories/             # Storybook stories
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 UI Components
 
-## Deploy on Vercel
+This project uses **Shadcn UI** - a collection of re-usable components built with:
+- **Radix UI** for accessibility and behavior
+- **TailwindCSS** for styling
+- **TypeScript** for type safety
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Available Components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Over 40+ components including:
+- Forms (Input, Select, Checkbox, Radio, etc.)
+- Overlays (Dialog, Popover, Tooltip, etc.)
+- Navigation (Tabs, Menu, Breadcrumb, etc.)
+- Feedback (Alert, Toast, Progress, etc.)
+- Data Display (Table, Card, Badge, etc.)
+
+View all components in Storybook: `npm run storybook`
+
+## 📖 API Documentation
+
+Interactive API documentation is available at `/scalar/docs` powered by Scalar.
+
+**Current Endpoints:**
+
+### Authentication
+
+- `POST /api/auth/create-account` - Create new user account
+- `POST /api/auth/login` - User login
+
+Access the documentation: [http://localhost:3000/scalar/docs](http://localhost:3000/scalar/docs)
+
+## 🎭 Animation with GSAP
+
+GSAP (GreenSock Animation Platform) is included for professional animations:
+
+```typescript
+import { gsap } from 'gsap'
+
+// Example animation
+gsap.to('.element', {
+  x: 100,
+  duration: 1,
+  ease: 'power2.out'
+})
+```
+
+## 🗄️ Database
+
+MongoDB is used for data persistence. Configure your connection in `.env.local`:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+```
+
+## 🚀 Deployment
+
+This project is optimized for deployment on **Vercel**:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Configure environment variables
+4. Deploy!
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**PHANTOM Stack by Agoy**
+
+---
+
+Built with ❤️ using the PHANTOM Stack
