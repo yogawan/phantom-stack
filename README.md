@@ -1,12 +1,12 @@
-# 👻 PHANTOM Stack v2
+# PHANTOM Stack v2
 
 > A modern, blazing-fast full-stack development framework by **Yogawan Aditya Pratama (Agoy)**
 
-## 🚀 What is PHANTOM Stack?
+## What is PHANTOM Stack?
 
 PHANTOM Stack v2 is a carefully curated technology stack designed for building production-ready web applications with optimal developer experience and performance. Each technology is chosen to work seamlessly together, providing a powerful foundation for modern web development.
 
-## 🎯 Stack Components
+## Stack Components
 
 ### **P** - Production Framework
 - **Next.js** - The React framework for production with Server-Side Rendering, API Routes, and optimal performance
@@ -28,7 +28,7 @@ PHANTOM Stack v2 is a carefully curated technology stack designed for building p
 ### **M** - Module Documentation
 - **Storybook** - UI component development environment and documentation
 
-## 📦 Technology Details
+## Technology Details
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -40,7 +40,7 @@ PHANTOM Stack v2 is a carefully curated technology stack designed for building p
 | Documentation | Storybook | Component library and docs |
 | Deployment | Vercel | Optimized hosting platform |
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ npm run storybook    # Start Storybook
 npm run build-storybook  # Build Storybook
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 phantom-stack/
@@ -92,18 +92,18 @@ phantom-stack/
 └── styles/            # Global styles
 ```
 
-## 🎨 Features
+## Features
 
-- ⚡ **Lightning Fast** - Next.js 14 with Turbopack
-- 🎭 **Beautiful UI** - Pre-configured Shadcn UI components
-- 🔒 **Type-Safe** - Full TypeScript support
-- 📱 **Responsive** - Mobile-first design approach
-- ♿ **Accessible** - WCAG compliant components
-- 🎬 **Smooth Animations** - GSAP integration
-- 📚 **Well Documented** - Storybook component library
-- 🚀 **Production Ready** - Optimized for Vercel deployment
+- **Lightning Fast** - Next.js 14 with Turbopack
+- **Beautiful UI** - Pre-configured Shadcn UI components
+- **Type-Safe** - Full TypeScript support
+- **Responsive** - Mobile-first design approach
+- **Accessible** - WCAG compliant components
+- **Smooth Animations** - GSAP integration
+- **Well Documented** - Storybook component library
+- **Production Ready** - Optimized for Vercel deployment
 
-## 🔧 Tech Stack Details
+## Tech Stack Details
 
 ### Next.js
 Next.js provides the foundation with server-side rendering, static site generation, API routes, and automatic code splitting for optimal performance.
@@ -126,7 +126,7 @@ Development environment for UI components, allowing isolated component developme
 ### Vercel
 Optimized hosting platform for Next.js applications with automatic deployments, edge network, and serverless functions.
 
-## 📖 API Documentation
+## API Documentation
 
 The project includes built-in API documentation using Scalar:
 
@@ -134,21 +134,21 @@ The project includes built-in API documentation using Scalar:
 http://localhost:3000/scalar/docs
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+## Author
 
 **Yogawan Aditya Pratama (Agoy)**
 
 - GitHub: [@yogawan](https://github.com/yogawan)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to all the open-source projects that make PHANTOM Stack possible:
 
@@ -161,4 +161,4 @@ Special thanks to all the open-source projects that make PHANTOM Stack possible:
 
 ---
 
-Built with 💜 by Yogawan Aditya Pratama (Agoy)
+Built with love by Yogawan Aditya Pratama (Agoy)
