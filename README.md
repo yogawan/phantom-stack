@@ -3,18 +3,6 @@
 A cutting-edge fullstack Next.js ecosystem designed for building scalable SaaS platforms and cinematic web applications.
 
 
-# What is PHANTOM?
-
-PHANTOM stands for:
-- **Performance**: Optimized for speed and scalability
-- **Headless**: Modular and API-driven architecture
-- **Animation**: Smooth, high-performance animations
-- **Next.js**: The core framework for modern web development
-- **TailwindCSS**: Rapid UI development with utility-first CSS
-- **Observable State**: Efficient state management
-- **Maintainability**: Clean, scalable, and maintainable codebase
-
-
 # Core Framework
 
 | Logo | Technology | Description |
@@ -69,3 +57,15 @@ PHANTOM stands for:
 | Logo | Technology | Description |
 |------|-----------|-------------|
 | <img src="/public/tech-stack/Vercel.svg" height="96px" /> | **Vercel** | A deployment platform optimized for Next.js applications. |
+
+
+# So WTF is PHANTOM?
+
+PHANTOM stands for:
+- **Performance**: Optimized for speed and scalability
+- **Headless**: Modular and API-driven architecture
+- **Animation**: Smooth, high-performance animations
+- **Next.js**: The core framework for modern web development
+- **TailwindCSS**: Rapid UI development with utility-first CSS
+- **Observable State**: Efficient state management
+- **Maintainability**: Clean, scalable, and maintainable codebase
