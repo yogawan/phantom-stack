@@ -1,20 +1,20 @@
-# 👻 PHANTOM Stack
+# 👻 PHANTOM Stack v2
 
-**PHANTOM Stack by Agoy** - A modern, powerful, and opinionated full-stack development framework for building high-performance web applications.
+**PHANTOM Stack v2 by Yogawan Aditya Pratama (Agoy)** - A modern, powerful, and opinionated full-stack development framework for building high-performance web applications.
 
 ## 🚀 Stack Overview
 
-PHANTOM is an acronym representing the core technologies that power this stack:
+PHANTOM is an acronym representing the core principles and technologies that power this stack:
 
-| Technology | Purpose | Official Site |
-|------------|---------|---------------|
-| **P** - [Next.js](https://nextjs.org) | **Framework** | React-based framework for production |
-| **H** - [Radix UI](https://radix-ui.com) | **Headless UI** | Unstyled, accessible components |
-| **A** - [GSAP](https://gsap.com) | **Animation Library** | Professional-grade animation |
-| **N** - [TailwindCSS](https://tailwindcss.com) | **Utility-first CSS** | Utility-first CSS framework |
-| **T** - [TypeScript](https://typescriptlang.org) | **Type Safety** | JavaScript with syntax for types |
-| **O** - (Optimized) | **Performance** | Built-in optimizations |
-| **M** - [MongoDB](https://mongodb.com) | **Database** | NoSQL database |
+| Principle | Description | Key Technology |
+|-----------|-------------|----------------|
+| **P** - Performance | Optimized for speed and efficiency | [Next.js 16](https://nextjs.org) with Turbopack |
+| **H** - Headless Architecture | Decoupled, flexible component system | [Radix UI](https://radix-ui.com) primitives |
+| **A** - Animation | Smooth, professional animations | [GSAP](https://gsap.com) |
+| **N** - NextJS | React-based production framework | [Next.js](https://nextjs.org) App Router |
+| **T** - TailwindCSS | Utility-first styling approach | [TailwindCSS](https://tailwindcss.com) |
+| **O** - Observable State | Reactive state management | Built-in React hooks & patterns |
+| **M** - Maintainability | Clean, scalable architecture | TypeScript + best practices |
 
 ### Additional Technologies
 
@@ -167,8 +167,17 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**PHANTOM Stack by Agoy**
+**Yogawan Aditya Pratama (Agoy)**
+
+PHANTOM Stack v2 - A philosophy of building modern web applications with focus on:
+- **Performance** - Fast, optimized experiences
+- **Headless Architecture** - Flexible, composable systems
+- **Animation** - Delightful interactions
+- **NextJS** - Powerful React framework
+- **TailwindCSS** - Efficient styling
+- **Observable State** - Reactive data flow
+- **Maintainability** - Long-term code quality
 
 ---
 
-Built with ❤️ using the PHANTOM Stack
+Built with ❤️ using the PHANTOM Stack v2
