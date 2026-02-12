@@ -1,18 +1,3 @@
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  th {
-    background-color: #f4f4f4;
-  }
-</style>
-
 # PHANTOM Stack v2 by Agoy
 
 Starter kit NextJS project
@@ -225,3 +210,20 @@ PHANTOM stands for:
 - **TailwindCSS**: A utility-first CSS framework that accelerates UI development and ensures design consistency.
 - **Observable State**: Efficient state management solutions for handling complex application logic.
 - **Maintainability**: A clean, scalable, and maintainable codebase that simplifies long-term development and collaboration.
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f4f4f4;
+  }
+</style>
+
+<!-- Ensure all tables are styled to take full width -->
