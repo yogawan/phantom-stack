@@ -60,9 +60,9 @@ This stack is tailored for developers who prioritize:
 
 | Logo | Technology | Role |
 |------|-----------|---|
-| <img src="/public/tech-stack/NextAuth.svg" height="96px" /> | **Clerk / NextAuth** | Secure authentication and session management. |
-| <img src="/public/tech-stack/MongoDB.svg" height="96px" /> | **MongoDB / Firebase / Supabase / PocketBase** | Flexible and scalable database solutions. |
-| <img src="/public/tech-stack/Mongoose.svg" height="96px" /> | **Prisma / Mongoose** | Simplified database interaction with ORM/ODM tools. |
+| <img src="/public/tech-stack/NextAuth.svg" height="96px" /> | **NextAuth** | Secure authentication and session management. |
+| <img src="/public/tech-stack/MongoDB.svg" height="96px" /> | **MongoDB Atlas** | Flexible and scalable database solutions. |
+| <img src="/public/tech-stack/Mongoose.svg" height="96px" /> | **Mongoose** | Simplified database interaction with ORM/ODM tools. |
 | <img src="/public/tech-stack/Axios.svg" height="96px" /> | **Axios** | A powerful and easy-to-use HTTP client for API communication. |
 | <img src="/public/tech-stack/Scalar.svg" height="96px" /> | **Scalar** | Interactive and visually appealing API documentation. |
 
@@ -84,6 +84,3 @@ This stack is tailored for developers who prioritize:
 | Logo | Technology | Description |
 |------|-----------|-------------|
 | <img src="/public/tech-stack/Vercel.svg" height="96px" /> | **Vercel** | A deployment platform optimized for Next.js applications. |
-| **pnpm** | A fast, disk-efficient package manager for modern JavaScript projects. |
-
----
