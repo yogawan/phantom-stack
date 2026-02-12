@@ -1,12 +1,10 @@
 # PHANTOM Stack v2
 
-**Developer:** Yogawan Aditya Pratama (Agoy)
-
 A cutting-edge fullstack Next.js ecosystem designed for building scalable SaaS platforms and cinematic web applications.
 
 ---
 
-## What is PHANTOM?
+### What is PHANTOM?
 
 PHANTOM stands for:
 - **Performance**: Optimized for speed and scalability
@@ -17,15 +15,9 @@ PHANTOM stands for:
 - **Observable State**: Efficient state management
 - **Maintainability**: Clean, scalable, and maintainable codebase
 
-This stack is tailored for developers who prioritize:
-- Exceptional performance
-- Scalable design systems
-- Immersive user experiences
-- Maintainable and future-proof architecture
-
 ---
 
-# Core Framework
+### Core Framework
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
@@ -33,7 +25,7 @@ This stack is tailored for developers who prioritize:
 
 ---
 
-# Frontend UI Layer
+### Frontend UI Layer
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
@@ -45,7 +37,7 @@ This stack is tailored for developers who prioritize:
 
 ---
 
-# State and Validation Layer
+### State and Validation Layer
 
 | Logo | Technology | Role |
 |------|-----------|---|
@@ -56,7 +48,7 @@ This stack is tailored for developers who prioritize:
 
 ---
 
-# Backend and Data Layer
+### Backend and Data Layer
 
 | Logo | Technology | Role |
 |------|-----------|---|
@@ -68,7 +60,7 @@ This stack is tailored for developers who prioritize:
 
 ---
 
-# Quality and Observability
+### Quality and Observability
 
 | Logo | Technology | Role |
 |------|-----------|---|
@@ -79,7 +71,7 @@ This stack is tailored for developers who prioritize:
 
 ---
 
-# DevOps and Deployment
+### DevOps and Deployment
 
 | Logo | Technology | Description |
 |------|-----------|-------------|
