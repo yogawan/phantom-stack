@@ -1,6 +1,6 @@
 # PHANTOM Stack v2 by Agoy
 
-Starter kit NextJS project
+NextJS Fullstack Starter-kit
 
 ---
 
