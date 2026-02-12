@@ -1,6 +1,12 @@
+<style>
+  table {
+    width: 100%;
+  }
+</style>
+
 # PHANTOM Stack v2 by Agoy
 
-A cutting-edge fullstack Next.js ecosystem meticulously designed to empower developers in building scalable SaaS platforms and cinematic web applications. With a focus on performance, maintainability, and immersive user experiences, PHANTOM Stack provides the tools and technologies needed to create modern, high-quality web applications that stand out.
+Starter kit NextJS project
 
 ---
 
